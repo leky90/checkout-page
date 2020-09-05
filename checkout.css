@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  background: #f9fafb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background: #fdfdfe;
+  padding: 10px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  margin: 0 -15px;
+}
+
+.row--my-15 {
+  margin: 15px 0;
+}
+
+.row--vertical-center {
+  align-items: center;
+}
+
+.col-3 {
+  width: 25%;
+  margin: 0 15px;
+}
+.col-4 {
+  width: 33.333%;
+  margin: 0 15px;
+}
+.col-6 {
+  width: 50%;
+  margin: 0 15px;
+}
+.col-8 {
+  width: 66.667%;
+  margin: 0 15px;
+}
+.col-9 {
+  width: 75%;
+  margin: 0 15px;
+}
+
+.col--right {
+  text-align: right;
+}
+
+.nav {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.nav__item {
+  margin: 0 10px;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav__item--active {
+  color: #0084ff;
+}
+
+.logo,
+.nav {
+  vertical-align: middle;
+}
+
+.btn {
+  border-radius: 5px;
+  color: #0084ff;
+  background: #d7ebfe;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 0;
+}
+.btn--blue {
+  background: #0084ff;
+  color: #fff;
+}
+
+.btn--hidden {
+  display: none;
+}
+
+.form__header {
+  border-bottom: 1px dashed #f5f5fa;
+  padding-bottom: 15px;
+}
+
+.form__footer {
+  border-top: 1px dashed #f5f5fa;
+  padding-top: 15px;
+}
+
+.form-input {
+  padding: 10px 15px;
+  border: 1px solid #f5f5fa;
+  border-radius: 4px;
+  max-width: 100%;
+}
+
+.mini-cart .thumbnail-image {
+  max-height: 75px;
+}
+
+.mini-cart .form-input {
+  max-width: 50px;
+  margin: 0 20px;
+}
+
+.mini-cart .attribute-list {
+  display: none;
+}
+
+.icon-cart {
+  background: #d7ebfe;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+
+.mini-cart {
+  display: inline-block;
+  padding-right: 20px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.mini-cart label {
+  cursor: pointer;
+}
+
+.mini-cart:after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 30%;
+  top: 35%;
+  right: 0;
+  background: #000;
+}
+
+.mini-cart input[type="checkbox"]:checked + .mini-cart__dropdown {
+  display: block;
+}
+
+.mini-cart__icon,
+.mini-cart__info {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mini-cart__info strong,
+.mini-cart__info span {
+  display: block;
+}
+
+.mini-cart__dropdown {
+  margin: 0;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  padding: 10px;
+}
+
+.alert {
+  border-radius: 5px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  background: #fdfdfe;
+  text-align: center;
+  margin: 0;
+}
+.alert--warning {
+  background: #f7f8fb;
+}
+.alert--danger {
+  background: #fdf3f5;
+}
+
+.section__content {
+  border-radius: 20px;
+  padding: 30px;
+  background: #fff;
+}
+
+.thumbnail-image {
+  display: inline-block;
+}
+
+.thumbnail-image img {
+  height: 100%;
+  width: auto;
+}
+
+.attribute-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product-price__real {
+  font-weight: bold;
+}
+
+.product-price__discount {
+  color: red;
+  font-weight: bold;
+}
+.product-price__regular {
+  text-decoration: line-through;
+}
+
+.cart-list__item {
+  margin: 10px 0;
+}
